@@ -1,0 +1,331 @@
+@charset "utf-8";
+/* CSS Document */
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
+img, video, canvas {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 980px) {
+
+    /* pagewrap */
+
+    #main_work, .foot,.foot_reserve,.welstat,.other_gat, .part_main, .main_trade, .city_escort, .escort_infomain  {width:98%; padding:0 1%;}
+    /*********profile******/
+    .about-me,.aboutpro_maindiv { width:98%; padding:0 1%;}
+    .cart_menu{
+        width:26%;
+    }
+    .carousel_height{
+        height:  50%
+    }
+    .cart_menu{
+        top: 11%;
+        left: 23%;
+    }
+    .main_left_one{
+        width: 88%
+    }
+
+}
+@media screen and (max-width: 930px) {
+
+    /* pagewrap */
+
+    .login {  margin: 13px 0 0 12px;}
+    .vip_esnametit {font-size: 28px;}
+    .avalibal {margin: 4% 0 0 0;}
+    .vip_esnamemsg { font-size: 15px;}
+    .vip_esnameroad {font-size: 15px;}
+    .welpage_tit {font-size: 45px;}
+    .view_tit {font-size: 28px;}
+    .welpage_left {width: 59%;}
+    .welpage_left p {margin: 5px 0;}
+    .cart_menu{width:26%;}
+    /*********profile******/
+}
+@media screen and (max-width: 906px) {
+
+    .prem_box {margin: 38% 0 0 3%;width: 61%;}
+    .cart_menu{
+        width:30%;
+    }
+    /*********profile******/
+}
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+    .main_left{ width:100%;}
+    .main_right{ display:block; width:auto;}
+    .log_menu{ float:right;  margin: 0 12px 0 10px;}
+    .login{ float:right; margin:10px 0 0 0;}
+    .other_gat { margin: 15px 0 0;}
+    .welstat { margin:15px 0 0 0;}
+    .welstat p { margin:15px 0 0 0;}
+    .statclass {margin: 20px 0 0;}
+    #main_div { background:none;}
+    .menulog { float: none; margin: 125px 0 0;}
+    .pos-nav{ position:absolute;}
+    .soc { margin: 50px 10px 0 0;}
+    .fbtread{display:block; width:auto;}
+    .tittread{display:block; width:auto; margin:0;}
+    .alc_tital { padding:22px 0 0 10px;}
+    .create_tit{ font-size:16px; }
+    .alcar {padding: 0 0 0 5px;}
+    .pay2tit {padding:3px 6px 0 0; font-size:14px;}
+    .pay_im{ margin:0 3px 0 0;}
+    .vip_esnamemsg { font-size: 13px;}
+    .vip_esnameroad {font-size: 13px;}
+    .escort_infopic p { line-height: 27px;}
+    .welpage_tit {font-size: 37px;}
+    .prem_box {margin: 30% 0 0; width: 84%;}
+    /*********profile******/
+    .aboutpro_left{ width:96%}
+    .aboutpro_right{ width:40%; margin:6% 0 0 30%;}
+    .look_the {margin: 16% 0 10%;}
+    .cart_menu{
+        width:31%;
+    }
+    .carousel_height{
+        height:  62%
+    }
+    .head_main {min-height: auto;}
+    .menulog {margin: 80px 0 0;}
+    .main_nav {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .town_escort {width: 23%;}
+    .alc_left{ display:block; width:auto;}
+    .alc_right{ display:block; width:auto;}
+    .log_left{display:block; width:auto;}
+    .pay_left {display:block; width:auto; }
+    .featurd_cantain { width: 97%;}
+    .escortcat_menu { width:95%;}
+    .escort_info {display: block;width: auto;}
+    .escort_infopic { display: block; width: auto;}
+    .escort_info {margin:0 0 7% 2%;}
+    .offer {margin:0;}
+    .vip_esnamemsg { display:block;}
+    .vip_esnametit { font-size: 20px;}
+    .welpage_tit {font-size: 30px;}
+    .welpage_left p { line-height: 23px;}
+    /*********profile******/
+    .about_left { width:90%; padding:0 5%;}
+    .about_rgmain { width:50%; margin:0 20%;}
+    .cart_menu{
+        width:38%;
+    }
+    .soc {margin: 40px 5px 0;}
+    .head_main{
+        min-height: 112px;
+    }
+    .menulog {
+        clear: both;
+        float: left;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .carousel_height{
+        height:  60%
+    }
+
+    .menulog > div{
+        float: none;
+    }
+    .soc {
+        float: left;
+        margin: 0 20% 20px;
+        padding-top: 110px;
+        text-align: center;
+        width: 60%;
+    }
+    .soc_ic { margin: 0 2px;}
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    /* disable webkit text size adjust (for iPhone) */
+    .main_nav { margin:0;}
+    .main_part { margin:0;}
+    .pos-nav {margin: 14px 0 0 -98px; z-index: 22; position:absolute;}
+    .login {  margin: 0;}
+    .worldtit { font-size:17px;}
+    .sttit { font-size:17px;}
+    .findul{ margin:10px 0 0 0;}
+    .forgotmargin { margin: 0 0 0 5%;}
+    .escortcat_menu {
+        width: 95%;
+        /*        margin:2% 0 5% 0;*/
+    }
+    .avalibal {float: none;margin: 5% 0 0 15%;}
+    .welpage_tit { font-size: 22px;}
+    .welpage_left p { font-size: 12px; line-height: 20px;}
+    .welpage_left p {margin: 3px 0;}
+    .welpage_left {width: 65%;}
+    .offer p {margin: 15px 0;}
+    /*********profile******/
+    .menulog {
+        width: 100%;
+    }
+    .about_rgmain {margin: 0 15%;width: 70%;}
+    /*    .soc { margin: 25px 2px 0 0;}*/
+    .cart_menu{width:48%;top: 16%;left: 15%;}
+    .carousel_height{
+        height:  96%
+    }
+    .main_left_one{
+        width: 100%
+    }
+    .alc_left_one{
+        width:100%;
+    }
+    .jqury{
+        height: 93%;
+        margin-bottom: 18%;
+    }
+    .aboutpro_right {
+        margin: 6% 0 0 0;
+        width: 100%;
+    }
+    .info_rightmain {
+        margin: 5% 0 0;
+    }
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 360px) {
+    .foot_nav{ width:98%; padding:0 1%;  }
+    .legal3 { margin:13px 0 6px 4px;}
+    .foot_reserve { font-size:11px;}
+    .worldtit { font-size:12px;}
+    .sttit { font-size:14px;}
+    .stacsguide_tit { font-size:16px;}
+    .town_escort {width: 30%;}
+    .alc_tital {padding: 22px 0 0 7px;}
+    .create_tit {font-size: 14px;  margin: 4px 0 0 0;}
+    .pay2tit {font-size: 13px;padding: 5px 6px 0 0;}
+    .escortcat_menu {width: 100%;}
+    .featurd_gictit{ font-size:15px;}
+    .vipbt_main {margin: 0 0 10px 0;}
+    .welpage_tit {font-size: 18px;}
+    .welpage_left { margin: 55% 0 0; width: 98%;}
+    .prem_box { margin: 4% 0 0; width: 92%;}
+    .welpage_tit {font-size: 18px;  padding: 6% 0 0 3%;}
+    .view_tit { font-size: 22px;}
+    .escortcat_menu > div {
+        float: left;
+        width: 48%;
+    }
+    .featurd_gic > a > img{
+        width: 300px;
+        height:  300px;
+    }
+    .head_right {
+        width: 100%;
+    }
+    .soc {
+        padding-top: 70px;
+    }
+    #panel{
+        padding: 0;
+    }
+    .cart_menu {
+        width: 52%;
+        top: 17%;
+        left:5%;
+    }
+    .featurd_main {
+        margin: 1.5%;}
+    /*********profile******/
+    .logout_cont{
+        font-size: 14px;
+    }
+    .menulog {
+        width: 98%;
+    }
+    .about_rgmain {margin: 0 5%;width: 90%;}
+    .gbox {width: 150px;}
+
+    .vip_img {
+        height: 300px;
+        width: 300px;
+    }
+    .carousel_height{
+        height: 54%
+    }
+    .jqury{
+        height: 52%;
+        margin-bottom: 18%;
+    }
+    .blog_content_inner_right{
+        width: 100%;
+    }
+    .blog_content_inner_left{
+        width: 100%;
+        text-align: center;
+    }
+    .feature_img_blog{
+        float: none;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .foot_nav{ width:98%; padding:0 1%;  }
+    .legal3 { margin:13px 0 6px 4px;}
+    .foot_reserve { font-size:11px;}
+    .avalibal { margin: 5% 0 0 0;}
+    .menulog {
+        width: 98%;
+        text-align: center;
+    }
+    .logout_cont{
+        font-size: 14px;
+    }
+    .gbox {width: 100%;margin: 8px 0 0 6px;}
+    .vip_img {
+        height: 60%;
+        width: 94%;
+    }
+    .carousel_height{
+        height: 64%
+    }
+    .alc_right {
+        margin: 0;
+    }
+    .cart_menu {
+        top: 22%;
+    }
+    .jqury{
+        height: 52%;
+        margin-bottom: 18%;
+    }
+
+    /*    .common{
+            width: 260px;
+        }*/
+    /*    .main_part{
+            margin: 33px 0 25px;
+        }*/
+
+}

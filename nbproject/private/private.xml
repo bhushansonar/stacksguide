@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2">
+        <file>
+            <url>application/views/includes/header.php</url>
+            <bookmark id="2">
+                <name/>
+                <line>69</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/wamp/www/stacksguide/application/views/build_ads/add.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/controllers/stacksguide_ads.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/controllers/admin_webmag.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/views/build_ads/edit.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/views/admin/webmag/edit.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/models/webmag_model.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/controllers/profile_pageinner.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/views/get_all_profile_view.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/views/find_profile_view.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/views/profile_pageinner_view.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/controllers/vip_details.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/views/admin/webmag/add.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/models/find_profile_model.php</file>
+            <file>file:/E:/wamp/www/stacksguide/assets/css/main.css</file>
+            <file>file:/E:/wamp/www/stacksguide/application/controllers/webmag.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/models/stackguide_ads_model.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/views/profile_page_view.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/controllers/find_profile.php</file>
+            <file>file:/E:/wamp/www/stacksguide/application/controllers/home.php</file>
+        </group>
+    </open-files>
+</project-private>

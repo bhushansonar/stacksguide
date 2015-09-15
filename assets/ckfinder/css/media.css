@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+@viewport {
+width: device-width;
+zoom: 1;
+}
+
+img, video, canvas {
+max-width: 100%;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+}
+@media screen and (max-width: 980px) {
+
+	/* pagewrap */
+
+#main_work, .foot,.foot_reserve,.welstat,.other_gat, .part_main, main_trade,city_escort {width:98%; padding:0 1%;}
+
+
+}
+@media screen and (max-width: 930px) {
+
+	/* pagewrap */
+
+.login {
+    display: block;
+    margin: 13px 0 0 12px;}
+
+
+}
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+.main_left{ width:100%;}
+.main_right{ display:block; width:auto;}
+.log_menu{ float:right;  margin: 0 12px 0 10px;}
+.login{ float:right; margin:10px 0 0 0;}
+.other_gat { margin: 15px 0 0;}	
+.welstat { margin:15px 0 0 0;}
+.welstat p { margin:15px 0 0 0;}
+.statclass {margin: 20px 0 0;}
+#main_div { background:none;}
+.menulog {
+    float: none;
+    margin: 125px 0 0;}
+	
+	.pos-nav{ position:absolute;} 
+.soc {
+    
+    margin: 146px 10px 0 0;
+}
+.fbtread{display:block; width:auto;}
+.tittread{display:block; width:auto; margin:0;}
+.alc_tital { padding:22px 0 0 10px;}
+.create_tit{ font-size:16px; }
+.alcar {padding: 0 0 0 5px;}
+.pay2tit {padding:3px 6px 0 0; font-size:14px;}
+.pay_im{ margin:0 3px 0 0;}
+   }
+ 
+ @media screen and (max-width: 640px) {
+
+.town_escort {
+  
+    width: 23%;
+}
+.alc_left{ display:block; width:auto;}
+.alc_right{ display:block; width:auto;}
+   }
+   
+@media screen and (max-width: 480px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+.soc {margin: 78px 10px 0 0;}
+
+.main_nav { margin:0;}
+.main_part { margin:0;}
+.menulog {margin: 111px 0 0;}
+.pos-nav {margin: 14px 0 0 -98px; z-index: 22; position:absolute;}
+.login {  margin: 0;} 
+.worldtit { font-size:17px;}
+.sttit { font-size:17px;}  
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 360px) {
+.foot_nav{ width:98%; padding:0 1%;  } 
+
+.legal3 { margin:13px 0 6px 4px;}
+.foot_reserve { font-size:11px;}
+.worldtit { font-size:12px;}
+.sttit { font-size:14px;}
+
+.stacsguide_tit { font-size:16px;}
+
+.town_escort {
+    width: 30%;
+}
+
+.alc_tital {
+    padding: 22px 0 0 7px;
+}
+
+.create_tit {
+    font-size: 14px;  margin: 4px 0 0 0;
+}
+.pay2tit {
+    font-size: 13px;
+    padding: 5px 6px 0 0;
+}
+}
+
+
+@media screen and (max-width: 320px) {
+.foot_nav{ width:98%; padding:0 1%;  }
+
+.legal3 { margin:13px 0 6px 4px;}
+.foot_reserve { font-size:11px;}
+}
